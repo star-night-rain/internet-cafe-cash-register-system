@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>photo/beer.png</file>
+        <file>photo/bread.jpg</file>
+        <file>photo/ham.png</file>
+        <file>photo/noodles.jpg</file>
+        <file>photo/qq.png</file>
+        <file>photo/soda.jpg</file>
+        <file>photo/user.png</file>
+        <file>photo/wechat.png</file>
+        <file>photo/login.png</file>
+        <file>photo/logout.jpg</file>
+        <file>photo/uerdialog.jpg</file>
+        <file>photo/admin.jpg</file>
+        <file>photo/chat.jpg</file>
+        <file>photo/store.jpg</file>
+        <file>photo/recharge.jpg</file>
+        <file>photo/pwd.jpg</file>
+        <file>photo/data.jpg</file>
+    </qresource>
+</RCC>
