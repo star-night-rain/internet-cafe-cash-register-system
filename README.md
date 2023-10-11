@@ -1,2 +1,0 @@
-# InternetCafeCashRegisterSystem
-网吧收银系统
