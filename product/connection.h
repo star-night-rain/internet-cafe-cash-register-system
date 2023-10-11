@@ -10,7 +10,7 @@ static bool createConnection()
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
     db.setHostName("127.0.0.1");
     db.setPort(3306);
-    db.setDatabaseName("mysql");
+    db.setDatabaseName("internet_bar");
     db.setUserName("root");
     db.setPassword("root230817");
     if(!db.open())
@@ -32,8 +32,6 @@ static bool createConnection()
     query.exec(QString("create table foods (id integer primary key auto_increment,"
                         "name varchar(15),price int,count int)"));
 
-//    query.exec("create table a(id integer primary key auto_increment,sex int)");
-//    query.exec(QString("insert into a(sex)value(0)"));
     return true;
 }
 #endif // CONNECTION_H
